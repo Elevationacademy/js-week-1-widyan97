@@ -1,0 +1,18 @@
+h1 {
+    color: red;
+  }
+span {
+    height: 50px;
+    width: 50px;
+    background-color: #8e44ad;
+    display: inline-block;
+  }
+  
+button{
+    background-color: green;
+    
+  }
+  #container{
+    background-color:gray;
+    width: 200px;
+  }
