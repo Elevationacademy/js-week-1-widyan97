@@ -32,25 +32,28 @@ const calcAge = function(year1,year2){
                const printEven = function(arr){
                 for (let i=0; i<arr.length; i++) {
 
-               let  tf=isEven(numbers)
-                 if (tf==false)
-                   return arr[i]
+                  let  tf=isEven(arr[i])
+                   if (tf==false)
+                   console.log(arr[i])
 
                }
             }
                const numbers = [1, 5, 3,10,15]
-               const nums = printEven(numbers)
+               
+                printEven(numbers)
 
-               console.log(nums)
-            
-            
-           
-                 
-
-
-
-
-
-
+                //ex5
+                const check = function (array, num) {
+                  for(let number of array) {
+                    if(number === num) {
+                      return true
+                    }
+               } 
+                  return false
+                }
+                   
+                const nums = [20,30, 50,10]
+                   
+                console.log(check(nums, 50))
 
                 
